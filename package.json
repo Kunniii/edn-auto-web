@@ -2,7 +2,7 @@
   "name": "edn-auto-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/edn-auto-web",
+  "homepage": "/",
   "dependencies": {
     "@tanstack/react-query": "^4.14.6",
     "@testing-library/jest-dom": "^5.14.1",
