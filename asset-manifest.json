@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/edn-auto-web/static/css/main.00495af4.css",
-    "main.js": "/edn-auto-web/static/js/main.1d72e691.js",
-    "index.html": "/edn-auto-web/index.html",
-    "main.00495af4.css.map": "/edn-auto-web/static/css/main.00495af4.css.map",
-    "main.1d72e691.js.map": "/edn-auto-web/static/js/main.1d72e691.js.map"
+    "main.css": "/static/css/main.00495af4.css",
+    "main.js": "/static/js/main.1d72e691.js",
+    "index.html": "/index.html",
+    "main.00495af4.css.map": "/static/css/main.00495af4.css.map",
+    "main.1d72e691.js.map": "/static/js/main.1d72e691.js.map"
   },
   "entrypoints": [
     "static/css/main.00495af4.css",
