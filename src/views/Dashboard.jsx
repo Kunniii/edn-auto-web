@@ -1,6 +1,4 @@
 import { Fragment } from "react";
-import { useQuery } from "@tanstack/react-query";
-import axios from "axios";
 import InteractiveDashboard from "../components/InteractiveDashboard";
 
 function removeToken() {
