@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
-import Course from "./Course";
+import CourseCard from "./CourseCard";
 import RequestHeader from "./RequestHeader";
 import * as courseInteraction from '../utils/courseInteraction';
 
@@ -22,7 +22,7 @@ export default function UserCourses() {
   return (
     <div className="grid grid-flow-row xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
       {data.data.listCourseOfUser.map((c) => {
-        return <Course data={c} key={c.id} onClick={() => courseInteraction.enter(c)} />
+        return <CourseCard data={c} key={c.id} onClick={() => courseInteraction.enter(c)} />
       })}
     </div>
   );
