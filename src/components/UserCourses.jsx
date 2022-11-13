@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import CourseCard from "./CourseCard";
-import RequestHeader from "./RequestHeader";
+import RequestHeader from "../utils/RequestHeader";
 import * as courseInteraction from '../utils/courseInteraction';
 
 const config = {

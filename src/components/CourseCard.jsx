@@ -21,13 +21,14 @@ import { Fragment } from "react";
 export default function Course(props) {
   return (
     <Fragment>
-      <div className="w-72 h-64 border rounded-lg mx-auto p-4 my-4" onClick={props.onClick}>
-        <div className="font-bold text-lg text-center">
+      <div className="w-72 h-64 border rounded-lg mx-auto p-4 px-a my-4" onClick={props.onClick}>
+        <h1 className="font-bold text-lg text-center">
           {props.data.externalcode}
-        </div>
-        <div className="">
+        </h1>
+        <p className="">
           {props.data.title}
-        </div>
+        </p>
+        <button onClick={props.onClick}>Select Course</button>
       </div>
     </Fragment>
 
