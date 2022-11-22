@@ -1,6 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
-import { Fragment } from "react";
 import { processSessions } from "../utils/courseInteraction";
 import RequestHeader from "../utils/RequestHeader";
 let course = JSON.parse(localStorage.getItem("selectedCourse"));
@@ -12,7 +11,7 @@ const config = {
   }
 };
 export default function CourseInfo(props) {
-  const { isLoading, error, data, isFetching } = useQuery(["get-sessions-details"], () =>
+  const { isLoading, error, isFetching } = useQuery(["get-sessions-details"], () =>
     axios
       .get("https://fuapi.edunext.vn/learn/v2/classes/get-class-sessions-details", config)
       .then((res) => {
