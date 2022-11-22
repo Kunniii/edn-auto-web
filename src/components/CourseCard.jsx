@@ -28,7 +28,7 @@ export default function Course(props) {
         <p className="">
           {props.data.title}
         </p>
-        <button onClick={props.onClick}>Select Course</button>
+        <button onClick={props.onClick} className="font-bold text-blue-600">Select Course</button>
       </div>
     </Fragment>
 

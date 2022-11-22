@@ -17,7 +17,7 @@ export default function UserCourses() {
 
   if (isLoading) return "Loading...";
   if (isFetching) return "Fetching data...";
-  if (error) return "An error has occurred: " + error.message;
+  if (error) return "An error has occurred: " + error.message + ". You may need to logout and get a new TOKEN.";
 
   return (
     <div className="grid grid-flow-row xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
