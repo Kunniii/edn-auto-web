@@ -7,13 +7,13 @@ export default function Header() {
         onClick={leave}
         className="font-bold text-white bg-sky-500 px-2 py-1 rounded"
       >
-        Back
+        BACK
       </button>
       <button
         onClick={logout}
         className="font-bold text-white bg-red-500 px-2 py-1 rounded"
       >
-        Logout
+        LOGOUT
       </button>
     </div>
   );

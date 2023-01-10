@@ -18,20 +18,19 @@ import { Fragment } from "react";
   "totalActivity": 0
 }
 */
-export default function CourseCard(props) {
+export default function CourseCardSkeleton(props) {
   return (
     <Fragment>
       <div
-        className="w-72 h-64 border rounded-lg mx-auto p-4 my-4 bg-slate-100 duration-100 hover:duration-100 hover:cursor-pointer hover:drop-shadow-lg hover:bg-white"
-        onClick={props.onClick}
+        className="animate-pulse w-72 h-64 border rounded-lg mx-auto p-4 px-a my-4 bg-slate-100 duration-100 hover:duration-100 hover:cursor-pointer hover:drop-shadow-lg hover:bg-white"
       >
-        <h1 className="font-bold text-lg text-center">
-          {props.data.externalcode}
+        <h1 className="font-bold text-lg text-center bg-slate-200">
+          &nbsp;
         </h1>
         <hr className="my-1" />
-        <p className="h-36 overflow-clip">{props.data.title}</p>
-        <p className="text-center font-bold border border-blue-500 rounded text-blue-600 px-5 py-2 hover:bg-blue-500 hover:text-white">
-          Go to this course
+        <p className="h-36 overflow-clip bg-slate-200">&nbsp;</p>
+        <p className="text-center font-bold bg-slate-200">
+          &nbsp;
         </p>
       </div>
     </Fragment>
