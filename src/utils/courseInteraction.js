@@ -9,6 +9,11 @@ export function load() {
   return c;
 }
 
+export function logout() {
+  localStorage.removeItem("userToken");
+  window.location.reload();
+}
+
 export function leave() {
   localStorage.removeItem("selectedCourse");
   localStorage.removeItem("activities");

@@ -10,7 +10,6 @@ export default function CourseInteract(props) {
       <h1>Course Interact for {course.externalcode}</h1>
       <CourseInfo />
       <Actions />
-      <button onClick={courseInteraction.leave}>Go back</button>
     </Fragment>
   );
 }

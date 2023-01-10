@@ -1,15 +1,11 @@
 import { Fragment } from "react";
+import Header from "../components/Header";
 import InteractiveDashboard from "../components/InteractiveDashboard";
-
-function removeToken() {
-  localStorage.removeItem("userToken");
-  window.location.reload();
-}
 
 export default function Dashboard() {
   return (
     <Fragment>
-      <button onClick={removeToken}>Logout</button>
+      <Header />
       <InteractiveDashboard />
     </Fragment>
   );
