@@ -6,7 +6,7 @@ export default function QuestionCard(props) {
       <p className="mb-3">{question.description}</p>
       <hr />
       <p className="px-1 mt-3 underline">Answer:</p>
-      <textarea type="text" className="h-20 border rounded-md mb-2 py-1 px-2 w-full"></textarea>
+      <textarea type="text" className="focus:outline-none h-20 border rounded-md mb-2 py-1 px-2 w-full"></textarea>
       <div>
         <button className="px-2 py-1 rounded bg-transparent border-2 duration-200 hover:duration-200 hover:text-white hover:bg-green-600 border-green-600 font-bold text-green-600 mb-1">Submit</button>
       </div>
